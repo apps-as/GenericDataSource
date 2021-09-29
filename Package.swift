@@ -12,7 +12,8 @@ let package = Package(
     targets: [
         .target(
             name: "GenericDataSource",
-            path: "Source"
+            path: "Source",
+            exclude: ["Info.plist"]
         )
     ]
 )

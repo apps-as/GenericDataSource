@@ -1,6 +1,6 @@
 import UIKit
 
-public protocol NibLoadableView: class {
+public protocol NibLoadableView: AnyObject {
     static var nibName: String { get }
 }
 
